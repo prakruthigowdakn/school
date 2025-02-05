@@ -1,0 +1,55 @@
+.full{
+  background-color: rgb(207, 207, 207);
+  width: 100%;
+  height: 550px;
+}
+  form{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.head1{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 2%;
+}
+.para-1{
+  text-align: center;
+  font-size: 25px;
+}
+.form-label{
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+}
+#first-name{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+#last-name{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+#phone-number{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+#email{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+#validationTextarea{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+ .form-control:hover{
+  border: solid;
+  border-width: 3px;
+  border-color: #4f4040!important;
+} 

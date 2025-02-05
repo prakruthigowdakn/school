@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+}
+.price-head{
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 20px;
+}
+.price-para{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 450;
+}
+.user-icon{
+  width: 20px;
+  height: 20px;
+}
+.col-md-4{
+ width: 28%;
+}
+
+.card-head{
+  background-color: rgb(229, 246, 240);
+}
+.check{
+  width: 15px;
+  height: 15px;
+}
+.ch1{
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-weight: 700;
+  line-height: 0px;
+}
+.cp1{
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(62, 60, 60);
+  padding-left: 30px;
+}
+.user-count{
+  padding-left: 30px;
+}
+.ch2{
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.sec-2{
+  padding-left: 30px;
+}
+.cp2{
+  font-size: 12px;
+  font-weight: 400;
+}
+#subsc-btn{
+  width: 90%;
+  border: none;
+  color: white;
+  background-color: rgb(212, 65, 212);
+  border-radius: 10px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.req-btn{
+  width: 90%;
+  border: none;
+  color: white;
+  background-color: rgb(212, 65, 212);
+  border-radius: 10px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+.check-para{
+  line-height: 16px;
+}
+.chpara{
+  font-size: 15px;
+}
+

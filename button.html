@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carousel</title>
+    <link rel="stylesheet" href="button.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Swiper Slider -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="nature-1.jpg" class="slide1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="p1-images/nimage" class="slide1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="p1-images/nature-1.jpg" class="slide1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="p1-images/nimage" class="slide1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="p1-images/nimage2" class="slide1" />
+        </div>
+      </div>
+      <!-- Pagination and Navigation Buttons -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1, // Default: 1 slide at a time
+        spaceBetween: 20, // Space between slides
+        loop: true, // Infinite loop
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true, // Enable clickable pagination dots
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
+  </body>
+</html>
