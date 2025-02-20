@@ -49,7 +49,11 @@
   color: gray;
 }
  .form-control:hover{
-  border: solid;
-  border-width: 3px;
-  border-color: #4f4040!important;
+  border: none;
+ border-color: white;
 } 
+.was-validated .form-control:valid,
+.was-validated .form-control:invalid {
+  background-image: none !important; 
+  padding-right: 0; 
+}

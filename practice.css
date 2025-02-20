@@ -1,5 +1,5 @@
 * {
-  margin: 0px 0px 0px 0px !important;
+  margin: 0px !important;
   padding: 0;
 }
 section {
@@ -58,11 +58,11 @@ text-decoration: none;
  background-color: #96bb7c;;
  position: relative;
  top: 20%;
- padding-left: 10px;
- padding-top: 5px;
  color:#FFFFFF;
 font-size: 14px;
 font-weight: 700;
+text-align: center;
+padding-top: 6px;
 }
 
 .text-bkgd {
@@ -464,11 +464,7 @@ footer {
   text-decoration-skip-ink: none;
   color: #96bb7c;
 }
-/* .backg-clr {
-  width: 50%; 
-  height: 700px;
-  background-color: rgb(229, 243, 229);
-} */
+
 .bhead1 {
   font-size: 58px;
   font-weight: 700;
@@ -667,6 +663,9 @@ footer {
     gap: 20px;
     padding-right: 0px;
 }
+.sub-sm-menu{
+  gap: 30px;
+}
   .text-img-bkgd {
     display: flex;
     flex-direction: column;
@@ -731,7 +730,7 @@ footer {
     padding-top: 70px;
   }
   .course {
-    padding-top: 160px;
+    padding-top: 20%;
   }
   .course-para {
     padding-bottom: 20%;
@@ -777,9 +776,22 @@ footer {
     top: 20px;
   }
   video{
-    width: 300px;
+    width: 100%;
     padding-top: 30px;
   }
+  .f-head1{
+    font-size: 9px;
+  }
+  .f-para1{
+    font-size: 10px;
+  }
+  .phone-number {
+    font-size: 10.5px;
+}
+.r-text {
+  font-size: 9.5px;
+  letter-spacing: 0px;
+}
 }
 
   @media only screen and (min-width: 1024px) and (max-width: 1440px){
@@ -792,6 +804,20 @@ footer {
   .lyt-img-1{
     width: 400px;
     height: 380px;
+  }
+  #email-address {
+    padding-left: 10px;
+    padding-right: 50%;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #737373;
+    border-radius: 5px 0px 0px 5px;
   }
  
 }
